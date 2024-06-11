@@ -1,4 +1,4 @@
-//delete a character at some Index.
+//delete a character at some Index of string.
 
 import java.util.Scanner;
 
@@ -12,8 +12,7 @@ public class sbDelete {
         System.out.println("Enter the ending index:");
         int j = sc.nextInt();
 
-        //.setCharAt()
-        //deletes a character
+        //deletes a character from i to j-1(j is excluded)
         sb.delete(i, j);
         System.out.println(sb);
         sc.close();

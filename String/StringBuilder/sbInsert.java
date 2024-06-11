@@ -1,4 +1,4 @@
-//insert a character at a Index.
+//insert a character at a Index of a string.
 
 import java.util.Scanner;
 

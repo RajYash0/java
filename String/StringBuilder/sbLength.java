@@ -1,17 +1,14 @@
-//get a character from a Index of a sting.
+//find the length of the string.
 
 import java.util.Scanner;
 
-public class sbCharAt {
+public class sbLength {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder sb = new StringBuilder("hello");
         System.out.println(sb);
-        System.out.println("Enter the index of character:");
-        int i = sc.nextInt();
-
-        //.charAt(index)
-        System.out.println(sb.charAt(i));
+        //.lenght()
+        System.out.println("The lenght of string is: "+sb.length());
         sc.close();
     }
 }
